@@ -1,0 +1,7 @@
+{
+  "accountSid":"ACdc86979847c15f13d63eda1a2c080c41",
+  "authToken":"your auth token",
+  "fromPhone":"15005550006",
+  "toPhone":"15005550009",
+  "smsUrl":"https://api.twilio.com/2010-04-01/Accounts/%s/Messages.json"
+}
