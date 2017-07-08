@@ -1,0 +1,13 @@
+[Unit]
+Description=pinger
+After=network-online.target
+Wants=network-online.target
+Requires=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/linaro/go/src/pinger
+ExecStart=/home/linaro/go/src/pinger/pinger
+
+[Install]
+WantedBy=multi-user.target
